@@ -1,7 +1,9 @@
-# gitignoreを自動生成してくれるcli tool
+# gitignoreを自動生成してくれるcli
 
-mac用
+自分用なのでmacos用
 ```$xslt
-$ go run main.go go,intellij
+$ go install github.com/yaya1026/gito
+
+$ gito go,intellij
 -> .gitignoreが今のディレクトリに生成
 ```
